@@ -21,7 +21,7 @@ public class MapPractice {
     boolean qKey = mappy.containsKey("doggies");
     System.out.println(qKey);
     // Check whether the Map contains a given value
-    boolean qValue = mappy.containsValue("2");
+    boolean qValue = mappy.containsValue(2);
     System.out.println(qValue);
     // Iterate over the keys of the Map, printing each key
     for (String elementKey : mappy.keySet()) {
